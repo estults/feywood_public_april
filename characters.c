@@ -13,7 +13,7 @@ static void sort(int list[INVENTORYSIZE]){
 		}	
 	}
 
-}//, not a genuine sort, it just shuffles everything to the front of an array holding items, specifically either in a room or inventory
+}//, not a genuine sort, it just shuffles everything to the front of an array holding items, specifically either in a room or inventory.
 
 
 int takeItem(struct character * actor, struct room * area) {
