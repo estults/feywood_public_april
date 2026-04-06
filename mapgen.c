@@ -6,7 +6,6 @@
 #include "mapgen.h"
 
 
-
 /*the following functions are exposed through the header and can help to navigate the array returned by getMap*/
 
 
