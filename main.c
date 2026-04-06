@@ -4,6 +4,7 @@
 #include "characters.h"
 #include "interface.h"
 
+
 int main() {
 	struct character *mainCharacter = calloc(1, sizeof(struct character)); 
 
