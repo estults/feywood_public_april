@@ -7,7 +7,7 @@
 #include "mapgen.h"
 
 
-void static int buildFixedLevel(struct room * level, int offset){
+static void int buildFixedLevel(struct room * level, int offset){
 
 	strcpy((level + offset + 0)->descr, "You are in the entrance to the Hero's Keep, and to the North of you is a gate \
 through which you can see a courtyard. To your South is a pathway into dense, magical woodlands!");
@@ -44,7 +44,9 @@ the ground floor.");
  * has templates for zones and can simply be called with a pointer, an offset, an an entrypoint, and it generates the
  *  rooms in based on the templates. alas, it is not yet finished. when it is, the dungeon below the hero's keep will
  *  be vast and spooky! it will also be different every time! */
-void static int buildDynamicLevel(struct room * level, int entry, int orient, int xdim, int ydim, int den, int offset){
+
+
+static void int buildDynamicLevel(struct room * level, int entry, int orient, int xdim, int ydim, int den, int offset){
 
 	int *feywood = getMap(xdim, ydim, orient, den);// generates a map layout from mapgen that is organized as a matrix of ints
 						       // stored on an array with the last two ints storing the x and y dimensions of 
