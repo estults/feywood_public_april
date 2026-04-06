@@ -40,10 +40,10 @@ the ground floor.");
 	return offset + 5;
 }
 
-/*I am currently in the process of trying to rebvild this function into a system that pulls from a new "rooms.c" that 
+/* I am currently in the process of trying to rebvild this function into a system that pulls from a new "rooms.c" that 
  * has templates for zones and can simply be called with a pointer, an offset, an an entrypoint, and it generates the
  *  rooms in based on the templates. alas, it is not yet finished. when it is, the dungeon below the hero's keep will
- *  be vast and spooky! it will also be different every time!*/
+ *  be vast and spooky! it will also be different every time! */
 void static int buildDynamicLevel(struct room * level, int entry, int orient, int xdim, int ydim, int den, int offset){
 
 	int *feywood = getMap(xdim, ydim, orient, den);// generates a map layout from mapgen that is organized as a matrix of ints
