@@ -2,6 +2,7 @@
 #include <string.h>
 #include "items.h"
 
+
 const struct item ITEMS[] = {{DAGGER, "dagger"}, {SWORD, "sword"}, {AXE, "axe"}, {ORB, "orb"}, {CHALICE, "chalice"}, 
 {RUBY, "ruby"}, {error, "error"}};
 
@@ -14,5 +15,5 @@ int idOf(char *itemName){
 			return ITEMS[i].id;
 		}
 	}
-};//Must be set to same length as 'items'
+};
 
