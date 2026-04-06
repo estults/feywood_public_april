@@ -18,7 +18,7 @@ enum actionReturn {
 
 int takeItem(struct character * actor, struct room * area);//character takes an items from their location, returning SUCCESS, 
 							   //FAIL1 if it is not in their inventory, 
-							   //and FAIL2 if there is no room in their inventory
+							   //and FAIL2 if there is no room in their inventory.
 
 int dropItem(struct character * actor, struct room * area);//character drops an item at their location. returns either 
 							   //SUCCESS, FAIL1 if it is not in their inventory, 
