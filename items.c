@@ -14,5 +14,5 @@ int idOf(char *itemName){
 			return ITEMS[i].id;
 		}
 	}
-};//Must be set to same length as 'items'
+}
 
