@@ -1,6 +1,7 @@
 #ifndef FEYWOOD_WORLD_H
 #define FEYWOOD_WORLD_H
 
+
 #include "config.h"
 
 struct room{
