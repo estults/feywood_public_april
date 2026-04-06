@@ -15,5 +15,5 @@ int idOf(char *itemName){
 			return ITEMS[i].id;
 		}
 	}
-};
+}
 
