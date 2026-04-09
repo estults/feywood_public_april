@@ -2,6 +2,7 @@
 #include <string.h>
 #include "items.h"
 
+
 const struct item ITEMS[] = {{DAGGER, "dagger"}, {SWORD, "sword"}, {AXE, "axe"}, {ORB, "orb"}, {CHALICE, "chalice"}, 
 {RUBY, "ruby"}, {error, "error"}};
 

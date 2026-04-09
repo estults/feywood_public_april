@@ -1,6 +1,7 @@
 #ifndef FEYWOOD_MAPGEN_H
 #define FEYWOOD_MAPGEN_H
 
+
 int * getMap(int xdim, int ydim, int orient, int density); //inset x dimension, followed by y dimension, followed by 
 							   //rotation for the purposes of entrypoint, followed by 
 							   //density. 0 is rotate clockwise no times, so entry point 
